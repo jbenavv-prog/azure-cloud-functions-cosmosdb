@@ -1,0 +1,4 @@
+{
+  "azureFunctions.deploySubpath": "api",
+  "azureFunctions.scmDoBuildDuringDeployment": true
+}

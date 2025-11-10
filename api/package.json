@@ -1,0 +1,22 @@
+{
+  "name": "cosmos-mongo-api",
+  "version": "1.0.0",
+  "description": "Azure Functions (TS) + Cosmos DB Mongo API",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "npm run build && func start",
+    "watch": "tsc -w",
+    "test": "echo \"No tests yet...\""
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@azure/functions": "^4.4.0",
+    "mongodb": "^7.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/node": "^20.11.0"
+  }
+}
